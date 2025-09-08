@@ -1,9 +1,9 @@
 package com.unifor.arquiteturas.Repository;
 
 import com.unifor.arquiteturas.Model.User;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface UserRepository extends JpaRepository<User, long> {
-
+public interface UserRepository extends JpaRepository<User, Long> {
 }
