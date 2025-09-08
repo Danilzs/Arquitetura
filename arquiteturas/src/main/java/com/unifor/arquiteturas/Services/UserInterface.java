@@ -5,7 +5,7 @@ import com.unifor.arquiteturas.Model.User;
 import java.util.List;
 
 public interface UserInterface {
-    public User createUser(User user);
-    public List<User> getAllusers();
-    public User getUseByid(long id);
+    User createUser(User user);
+    List<User> getAllUsers();
+    User getUserById(Long id);
 }
